@@ -1,0 +1,45 @@
+/*-----general-----*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+}
+
+/*----header-----*/
+
+
+/*-----body-----*/
+body{
+    background-image: url(fondo_body_naturalis.png);
+}
+.texto1{
+    text-align: center;
+    color: beige;
+    font-size: 16px;
+    font-family:arial black;
+}
+.texto2{
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.texto3_columnas{
+    column-count: 2; /* número de columnas */
+    column-gap:3px; /* ancho de columnas */
+    column-rule: 2px; /* separación de columnas */
+    color: beige;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+
+}
+.items{
+    list-style-type:armenian;
+}
+
+/*-----footer-----*/
+footer{
+    background-color: aquamarine;
+}
